@@ -14,7 +14,7 @@ body {
   margin-left: auto;
   position: relative;
   max-width: 900px;
-  padding: 5px;
+  padding: 8px;
 }
 .content-title {
   text-align: center;
@@ -26,6 +26,7 @@ body {
   display: inline-block;
   height: 50px;
   width: 200px;
+  font-size: 14px;
   text-align: center;
   background: #AF48FF;
   border: 2px solid #AF48FF;
@@ -40,6 +41,7 @@ body {
   display: inline-block;
   height: 50px;
   width: 200px;
+  font-size: 14px;
   text-align: center;
   background: #ffffff;
   background: #FBF9FE;
@@ -82,6 +84,7 @@ body {
   border-radius: 16px;
   width: fit-content;
   margin: 5px 3px;
+  position: relative;
 }
 .tag-icon {
   width: 29px;
@@ -98,14 +101,14 @@ body {
 .introduction {
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   justify-content: space-between;
 }
 .profile-photo {
   margin-right: 30px;
 }
 .profile-info {
-  padding: 20px 5px;
+  padding: 20px 8px;
 }
 .profile-name {
   font-weight: bold;
@@ -126,24 +129,25 @@ body {
 }
 /* projects */
 #projects {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .project-wrapper {
   display: flex;
   flex-direction: row;
-  padding-bottom: 30px;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 20px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #AF48FF;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
 }
 .project-wrapper:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 .project-info {
-  width: 50%;
-  padding: 0 20px;
+  width: 49%;
 }
 .project-image {
-  width: 50%;
+  width: 49%;
 }
 .project-image img {
   width: 100%;
@@ -151,6 +155,13 @@ body {
 /* content */
 #contact {
   padding-top: 50px;
+  background: #AF48FF;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+#contact .content-title {
+  color: #ffffff;
 }
 .contact-info  {
   text-align: center;
@@ -176,9 +187,6 @@ body {
     width: 20px;
     height: 20px;
   }
-  .tag-name {
-    font-size: 12px;
-  }
   #showcase {
     padding-top: 0;
   }
@@ -193,23 +201,23 @@ body {
   }
   .profile-name {
     text-align: center;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 30px;
     margin-bottom: 20px;
     transform-origin: 0 0;
   }
   .call-to-actions {
-    text-align: center;
+    display: flex;
   }
   .btn-primary, .btn-secondary {
-    width: 150px;
-    height: 45px;
+    margin: 3px
   }
   .skills-wrapper {
     padding: 5px 2px;
     text-align: center;
   }
   #projects {
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .project-wrapper {
     display: block;
@@ -227,5 +235,10 @@ body {
   }
   .project-image img {
     width: 100%;
+  }
+  #contact {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    box-shadow: none;
   }
 }
