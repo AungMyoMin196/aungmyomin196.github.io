@@ -151,18 +151,6 @@ button:hover {
   margin: 5px 0px;
   position: relative;
 }
-/* .project-tag::before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url(../assets/svg/tag.svg);
-  background-repeat: no-repeat;
-  background-position: left center;
-} */
 .project-tag .tag {
   padding: 3px 6px;
   font-size: 11px;
