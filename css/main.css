@@ -1,8 +1,8 @@
 /* Global */
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #333333;
 }
 a {
@@ -36,8 +36,8 @@ body {
   width: 200px;
   font-size: 14px;
   text-align: center;
-  background: #AF48FF;
-  border: 2px solid #AF48FF;
+  background: #af48ff;
+  border: 2px solid #af48ff;
   box-sizing: border-box;
   border-radius: 30px;
   color: #ffffff;
@@ -52,11 +52,11 @@ body {
   font-size: 14px;
   text-align: center;
   background: #ffffff;
-  background: #FBF9FE;
-  border: 2px solid #AF48FF;
+  background: #fbf9fe;
+  border: 2px solid #af48ff;
   box-sizing: border-box;
   border-radius: 30px;
-  color: #AF48FF;
+  color: #af48ff;
   font-weight: 500;
   cursor: pointer;
   outline: none;
@@ -72,7 +72,7 @@ button:hover {
   flex-direction: row;
   align-items: center;
   padding: 10px 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   /* box-shadow: 0px 40px 30px rgb(25 25 46 / 4%); */
   box-shadow: 0px 20px 30px rgb(25 25 46 / 10%);
   border-radius: 16px;
@@ -86,7 +86,7 @@ button:hover {
 }
 .tag-name {
   margin-left: 3px;
-  color: #5D87A8;
+  color: #5d87a8;
 }
 /* showcase */
 #showcase {
@@ -107,7 +107,7 @@ button:hover {
 .profile-name {
   font-weight: bold;
   font-size: 50px;
-  color: #25323D;
+  color: #25323d;
 }
 .profile-name .text-wrapper {
   position: relative;
@@ -164,6 +164,27 @@ button:hover {
   font-weight: 300;
   color: #000000;
 }
+.project-spec {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+.project-spec dt,
+.project-spec dd {
+  display: inline-block;
+}
+.project-spec dt {
+  margin-right: 3px;
+}
+.project-spec dd {
+  margin-right: 8px;
+}
+.project-spec dt span {
+  font-size: 14px;
+  line-height: 2;
+}
 /* gil lab contribution */
 #codeContribution {
   margin-bottom: 50px;
@@ -178,7 +199,7 @@ button:hover {
 /* content */
 #contact {
   padding-top: 50px;
-  background: #AF48FF;
+  background: #af48ff;
   border-radius: 10px;
   margin-bottom: 50px;
   box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
@@ -186,7 +207,7 @@ button:hover {
 #contact .content-title {
   color: #ffffff;
 }
-.contact-info  {
+.contact-info {
   text-align: center;
   margin-bottom: 100px;
 }
@@ -194,7 +215,7 @@ button:hover {
 #footer {
   padding: 25px;
   text-align: center;
-  background-color: #F1E9FB;
+  background-color: #f1e9fb;
 }
 /* media query */
 @media only screen and (max-width: 900px) {
@@ -232,8 +253,9 @@ button:hover {
   .call-to-actions {
     display: flex;
   }
-  .btn-primary, .btn-secondary {
-    margin: 3px
+  .btn-primary,
+  .btn-secondary {
+    margin: 3px;
   }
   .skills-wrapper {
     padding: 5px 2px;
@@ -249,7 +271,7 @@ button:hover {
   }
   .project-info {
     width: auto;
-    padding:0;
+    padding: 0;
     margin-bottom: 20px;
   }
   .project-image {
