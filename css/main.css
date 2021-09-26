@@ -167,6 +167,7 @@ button:hover {
 .project-spec {
   font-size: 12px;
   display: flex;
+  flex-flow: wrap;
   align-items: center;
   margin-left: 10px;
   margin-bottom: 8px;
