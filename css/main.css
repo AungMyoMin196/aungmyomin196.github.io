@@ -1,5 +1,6 @@
 :root {
   --primary-color: #af48ff;
+  --secondary-color: #5d87a8;
   --text-color: #333333;
 }
 
@@ -90,7 +91,7 @@ button:hover {
 }
 .tag-name {
   margin-left: 3px;
-  color: #5d87a8;
+  color: var(--secondary-color);
 }
 /* showcase */
 #showcase {
@@ -103,9 +104,16 @@ button:hover {
   justify-content: space-between;
 }
 .lang {
+  display: flex;
+  align-items: center;
   position: absolute;
   right: 50px;
   top: 50px;
+}
+.lang span {
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin-right: 3px;
 }
 .lang a {
   color: var(--primary-color);
